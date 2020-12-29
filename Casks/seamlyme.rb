@@ -1,16 +1,15 @@
-cask "seamly2d" do
+cask "seamlyme" do
   version "weekly-20201228"
   sha256 "6175af94cbe77e278ec0035a6f21b1bbd7c6846d81320507a65b0d011d222e51"
 
   url "https://github.com/FashionFreedom/Seamly2D/releases/download/#{version}/Seamly2D.zip",
       verified: "github.com/FashionFreedom/Seamly2D/"
   appcast "https://github.com/FashionFreedom/Seamly2D/releases.atom"
-  name "Seamly2D"
-  desc "Open Source sewing pattern design software"
+  name "SeamlyME"
+  desc "Measurement tooling for Seamly2D."
   homepage "https://seamly.net/"
 
-  depends_on cask: "seamlyme"
-  container nested: "Seamly2D.dmg"
+  container nested: "SeamlyME.dmg"
 
-  app "Seamly2D.app"
+  app "seamlyme.app"
 end
