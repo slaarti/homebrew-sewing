@@ -6,7 +6,7 @@ cask "seamlyme" do
       verified: "github.com/FashionFreedom/Seamly2D/"
   appcast "https://github.com/FashionFreedom/Seamly2D/releases.atom"
   name "SeamlyME"
-  desc "Measurement tooling for Seamly2D."
+  desc "Measurement tooling for Seamly2D"
   homepage "https://seamly.net/"
 
   container nested: "SeamlyME.dmg"
