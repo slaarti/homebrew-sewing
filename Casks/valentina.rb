@@ -1,6 +1,6 @@
 cask "valentina" do
   version "0.7.47"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "8b5019c1d84ac96ae42d55b85ce4b118b3dae70ed4416c03c5b885080459be27"
 
   url "https://bitbucket.org/valentinaproject/valentinaproject.bitbucket.io/downloads/valentina_#{version}_10.13_64bit-OSX.dmg",
       verified: "bitbucket.org/valentinaproject/valentinaproject.bitbucket.io/"
