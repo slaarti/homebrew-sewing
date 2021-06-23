@@ -1,6 +1,6 @@
 cask "seamlyme" do
-  version "weekly-20201228"
-  sha256 "6175af94cbe77e278ec0035a6f21b1bbd7c6846d81320507a65b0d011d222e51"
+  version "weekly-20210614"
+  sha256 "6543f737450809e1ca98cab1fbedaaff652a8b5bd058357de8a4f8fe76e95f6f"
 
   url "https://github.com/FashionFreedom/Seamly2D/releases/download/#{version}/Seamly2D.zip",
       verified: "github.com/FashionFreedom/Seamly2D/"
